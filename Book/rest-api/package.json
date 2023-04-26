@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "Creating an application by using Angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "create" : "ng g c components/auth-extensions"
+  },
+  "keywords": [
+    "MEAN:",
+    "MongoDB",
+    "Express",
+    "Angularjs",
+    "Nodejs"
+  ],
+  "author": "Diksha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5"
+  }
+}
